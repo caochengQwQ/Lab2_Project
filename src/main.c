@@ -7,7 +7,7 @@
 int main () {
 
     int n;
-    printf("Input a number to calculate its fa");
+    printf("Input a number to calculate its factorial: ");
     scanf("%d", &n);
     printf("%d\n", factorial(n));
 
