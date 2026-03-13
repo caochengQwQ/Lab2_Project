@@ -2,10 +2,10 @@ main: main.o math_utils.o
 	gcc -o main main.o math_utils.o
 
 main.o: src ./include/math_utils.h
-	gcc -c ./scr/main.c
+	gcc -c ./src/main.c
 
 math_utils.o: src ./include/math_utils.h
-	gcc -c ./scr/math_utils.c
+	gcc -c ./src/math_utils.c
 
 .PHONY: clean
 clean:
