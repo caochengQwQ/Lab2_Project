@@ -6,7 +6,9 @@
 
 int main () {
 
-    printf("Hello World, as 1 + 1 = %d\n", add(1, 1));
+    int n;
+    scanf("%d", &n);
+    printf("%d", factorial(n));
 
     return 0;
 }
